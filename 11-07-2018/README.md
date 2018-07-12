@@ -1,5 +1,3 @@
-This problem was asked by Uber.
-
 # Question
 This problem was recently asked by Google.
 
