@@ -17,7 +17,7 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
 # Solution
-This question is a bit ambiguous in regard of to what depth you have to implement serialization without using a serialisation library. Further, it does not really limit the possible types for `node.val`, so a very low-level implementation can turn very work-intensive. My solution is fairly high-level, foregoing the use of direct serialisation and instead doing the following:
+This question is a bit ambiguous in regard of to what depth you have to implement serialization without using a serialisation library. Further, it does not really limit the possible types for `Node.val`, so a very low-level implementation can turn very work-intensive. My solution is fairly high-level, foregoing the use of direct serialisation and instead doing the following:
 
 To serialise:
 1. Convert the tree to a nested dictionary (a map) via a pre-order traversal (although any is fine, as long as you use the same for the deserialisation).
