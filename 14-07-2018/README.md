@@ -24,7 +24,7 @@ Complexity: `O(n)` time, `O(1)` space (excluding input array).
 
 ## Example
 1st sweep
-`[3, 4, -1, 1]` => `[1, 4, -1, 3]` => `[1, 3, -1, 4]`
+``[3, 4, -1, 1]`` => ``[1, 4, -1, 3]`` => ``[1, 3, -1, 4]``
 2nd sweep
 `[1, 3, -1, 4]` => `[1, -1, 3, 4]`
 Gap search:
