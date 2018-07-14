@@ -23,10 +23,13 @@ This appears to be enough on a first glance, but there are a few additional spec
 Complexity: `O(n)` time, `O(1)` space (excluding input array).
 
 ## Example
-1st sweep
-``[3, 4, -1, 1]`` => ``[1, 4, -1, 3]`` => ``[1, 3, -1, 4]``
-2nd sweep
+1st sweep:
+`[3, 4, -1, 1]` => `[1, 4, -1, 3]` => `[1, 3, -1, 4]`
+
+2nd sweep:
 `[1, 3, -1, 4]` => `[1, -1, 3, 4]`
+
 Gap search:
 `[1, -1, 3, 4]`, `array[1-1] == 1`
+
 `[1, 3, -1, 4]`, `array[2-1] != 2` so the next positive integer is 2.
