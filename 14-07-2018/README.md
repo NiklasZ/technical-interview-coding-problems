@@ -9,7 +9,7 @@ You can modify the input array in-place.
 
 
 # Solution
-This can be simplified by noticing the following:
+This can be simplified by noting the following:
 * As `0` or `-1` are optional and are not positive integers to consider, they are not necessary to solving the problem.
 * The memory constraint requires that we use the array's own capacity.
 
