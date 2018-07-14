@@ -32,4 +32,4 @@ Complexity: `O(n)` time, `O(1)` space (excluding input array).
 Gap search:
 `[1, -1, 3, 4]`, `array[1-1] == 1`
 
-`[1, 3, -1, 4]`, `array[2-1] != 2` so the next positive integer is 2.
+`[1, -1, 3, 4]`, `array[2-1] != 2` so the next positive integer is 2.
