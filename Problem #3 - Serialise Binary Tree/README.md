@@ -26,3 +26,5 @@ To serialise:
 To deserialise:
 1. Convert the string back into a dictionary.
 2. Traverse the dictionary and create a `Node` object through each step.
+
+13-07-2018

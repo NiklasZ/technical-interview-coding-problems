@@ -18,3 +18,4 @@ Complexity: `O(n)` time, `O(n)` space.
 There are a number of different ways to replace division or alternate ways to get the products, but I did not find any that would perform significantly better than a naïve solution. My solution reuses some products to avoid redundancy, but ultimately is not of a better complexity.
 
 Complexity: `O(n^2)` time, `O(n)` space.
+12-07-2018
