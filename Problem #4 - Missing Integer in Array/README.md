@@ -18,7 +18,7 @@ After ignoring the unnecessary elements, we can do a sweep and for each positive
 This appears to be enough on a first glance, but there are a few additional special cases to watch for:
 * Make sure `a < len(array)` or you will get out of bounds exceptions.
 * If the end of the array is reached, whilst checking for gaps, take the `max(array)+1`. This will only happen in situations where every unique positive integer is present. E.g `[1,2,3,4,5]`
-* If you swap an element forwards, you need to do 1 additional sweep (to total of 2 for the entire algorithm). Otherwise the swapped element will be out of place.
+* If you swap an element forwards, you need to do 1 additional sweep (to total of 2 for this step). Otherwise the swapped element will be out of place.
 
 Complexity: `O(n)` time, `O(1)` space (excluding input array).
 
