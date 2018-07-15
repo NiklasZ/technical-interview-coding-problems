@@ -13,7 +13,7 @@ Implement car and cdr.
 ```
 
 # Solution
-This problem is more a test of understanding than problem-solving. Note that the `cons` function defines a function `pair(f)` that it then returns. So when we run `car(pair)`, we can actually call `pair()` in our function. Next, `pair` actually takes in a parameter `f`, which is a function of our own choosing that in turn, receives `a,b` as parameters. All `f` needs to do, is return `a` for the `car` implementation and return `b` for the `cdr` implementation. After all the unravelling, this actually takes pretty short and simple code:
+This problem is more a test of understanding than problem-solving. Note that the `cons` function defines a function `pair(f)` that it then returns. So when we run `car(pair)`, we can actually call `pair(f)` in our function. Next, `pair` actually takes in a parameter `f`, which is a function of our own choosing that in turn, receives `a,b` as parameters. All `f` needs to do, is return `a` for the `car` implementation and return `b` for the `cdr` implementation. After all the unravelling, this actually takes pretty short and simple code:
 
 ```
 def car(pair):
